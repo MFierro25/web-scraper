@@ -1,5 +1,6 @@
-from web_scraper import __version__
+from web_scraper.scraper import get_citations_needed_count
 
-
-def test_version():
-    assert __version__ == '0.1.0'
+# def test_count():
+#     expected = get_citations_needed_count()
+#     actual = 17
+#     assert actual == expected
